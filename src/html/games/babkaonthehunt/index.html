@@ -14,7 +14,7 @@
         <div class="container text-center" style="margin-bottom: 40px">
             <h1>Babka On The Hunt</h1>
             <div class="d-flex flex-wrap align-items-center justify-content-center" style="margin-top: 5px">
-                <a href="/games" class="link">
+                <a href="/games" class="link-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 16 16" class="me-4">
                         <path
@@ -49,6 +49,15 @@
                         бескрайним пустырям бывшего СССР, ж/д Павловский Посад
                         и познакомитесь с новой планетой Эксолон.
                     </p>
+                    <div>
+                        <a href="//news.dybka.ru/games/babkaonthehuntclassic" class="link me-3">
+                            Читать подробнее
+                        </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,29 +110,8 @@
                 Популярное
             </h3>
             <div class="row row-cols-1 row-cols-lg-3" style="margin-bottom: 50px">
-                <div class="col p-2">
-                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
-                        <div class="col-md-4">
-                            <a href="/games/babkaonthehuntclassic">
-                                <img src="/img/games/bothnew/l.jpg" width="100" height="100" style="border-radius: 12px"
-                                    alt="Логотип игры Babka On The Hunt: 2D Классика">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ps-3--local">
-                                <h4>Babka On The Hunt: 2D Классика</h4>
-                                <a href="/games/babkaonthehuntclassic" class="fs-5 link-bothnew link">
-                                    <span class="me-2">Перейти</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @@include('../../../parts/game--babkanew.html', {
+                })
                 @@include('../../../parts/game--cards.html', {
                 })
                 @@include('../../../parts/game--sweetness.html', {
@@ -133,22 +121,22 @@
             <h3>Другие ссылки по игре</h3>
             <ul class="mb-0 fs-4">
                 <li>
-                    <a href="//s.creagoo.ru/?w=347p1U" class="link--underline">
+                    <a href="//s.creagoo.ru/?w=347p1U" class="link">
                         Играть онлайн
                     </a>
                 </li>
                 <li>
-                    <a href="//s.creagoo.ru/?w=QROggC" class="link--underline">
+                    <a href="//s.creagoo.ru/?w=QROggC" class="link">
                         Скачать для Android
                     </a>
                 </li>
                 <li>
-                    <a href="//creagoo.itch.io/babka-on-the-hunt" class="link--underline">
+                    <a href="//creagoo.itch.io/babka-on-the-hunt" class="link">
                         Страница на itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="//games.creagoo.ru/babkaonthehunt/privacypolicy/" class="link--underline">
+                    <a href="//games.creagoo.ru/babkaonthehunt/privacypolicy/" class="link">
                         Политика конфиденциальности
                     </a>
                 </li>
