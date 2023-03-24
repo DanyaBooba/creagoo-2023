@@ -34,16 +34,8 @@
 
 <header class="container header--main header--main-mobile">
     <div class="d-flex flex-wrap align-items-center justify-content-center">
-        <div class="nav me-auto header--adaptive-special-4">
-            <div>
-                <a href="/en/" aria-label="Переключить язык на английский"
-                    class="nav-link header--text bg-light header--locale header--locale-active">
-                    EN
-                </a>
-            </div>
-        </div>
         <div class="justify-content-center">
-            <a href="/" aria-label="Перейти на главную страницу">
+            <a href="/" class="header--logo-pc" aria-label="Перейти на главную страницу">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon header--logo-pc"
                     alt="Логотип Creagoo" width="280" viewBox="0 0 1105 169">
                     <path
@@ -70,64 +62,16 @@
                         d="M1382,540c0,25.68-16.89,44.28-58.47,44.28S1265,565.67,1265,540s16.89-44.28,58.47-44.28S1382,514.3,1382,540Zm-9.79,0c0-20.16-13.63-35.06-48.68-35.06s-48.68,14.9-48.68,35.06,13.63,35,48.68,35S1372.19,560.14,1372.19,540Z"
                         transform="translate(-276.98 -455.94)" />
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon header--logo-mobile" alt="Логотип Creagoo" width="50"
+            </a>
+            <button type="button" class="btn header--adaptive-5" aria-label="Открыть меню"
+                data-bs-toggle="offcanvas" data-bs-target="#canvasprojects" aria-controls="canvasprojects">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon d-block" alt="Логотип Creagoo" width="50"
                     viewBox="0 0 169.1 169">
                     <path
                         d="M372,542.24l31.6-75a84.23,84.23,0,0,0-78.6-3,32,32,0,1,1-38.4,37.2,84,84,0,0,0-9.6,39,85.74,85.74,0,0,0,2,18.4l25.1-10.8,21.5,49.7,51.6-22.2,12.2,28.3-45.2,19.3a82.83,82.83,0,0,0,17.4,1.8,84.46,84.46,0,0,0,84.5-84.5,65.07,65.07,0,0,0-.4-7.7Z"
                         transform="translate(-276.98 -455.94)" />
                 </svg>
-            </a>
-        </div>
-        <div class="ms-auto justify-content-center header--adaptive-4">
-            <!-- MOBILE  -->
-            <button type="button" class="btn btn-light header--adaptive-2" aria-label="Открыть мобильное меню"
-                data-bs-toggle="collapse" data-bs-target="#mobilemenu_full"
-                aria-expanded="false" aria-controls="mobilemenu_full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="header--theme-icon icon"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
             </button>
-        </div>
-    </div>
-    <!-- MOBILE -->
-    <div class="collapse  header--adaptive-4 mt-2" id="mobilemenu_full">
-        <div class="list-group container list-group-flush p-0">
-            <a href="/games" aria-label="Открыть страницу с играми"
-                class="list-group-item list-group-item-action">
-                Игры
-            </a>
-            <a href="/gallery.html" aria-label="Открыть галерею проектов"
-                class="list-group-item list-group-item-action">
-                Галерея
-            </a>
-            <a href="//news.dybka.ru" aria-label="Читать новости Creagoo"
-                class="list-group-item list-group-item-action">
-                Новости
-            </a>
-            <a href="/about.html" aria-label="Информация о Creagoo"
-                class="list-group-item list-group-item-action">
-                Подробнее
-            </a>
-            <!-- <a href="/2022.html" aria-label="Итоги 2022 года"
-                class="list-group-item list-group-item-action">
-                2022
-            </a> -->
-
-            <button class="list-group-item list-group-item-action"
-                onClick="ThemeChangeButton()" aria-label="Переключить темную и светлую тему">
-                Сменить тему
-            </button>
-            <div class="list-group-item text-tablet list-group-item-action">
-                Текущий язык: RU
-            </div>
-
-            <!-- SUPER MOBILE -->
-            <a href="/en" class="list-group-item text-mobile list-group-item-action"
-            aria-label="Переключить язык на английский">
-                Сменить язык
-            </a>
         </div>
     </div>
 </header>
@@ -136,7 +80,6 @@
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center">
             <ul class="nav me-auto">
-                <li class="nav-link header--text header--locale bg-light header--locale-disable header--adaptive-1">RU</li>
                 <li><a href="/en/" aria-label="Переключить язык на английский"
                     class="nav-link header--text bg-light header--locale header--locale-active">EN</a></li>
             </ul>
@@ -167,48 +110,15 @@
                 @@if(context.activeItem != "about") {
                 <li><a href="/about.html" class="nav-link nav--link" aria-label="Подробнее о Creagoo">Подробнее</a></li>
                 }
-                <!-- <li><a href="/2022.html" class="nav-link bg-light nav--link text-dark"
-                        style="border-radius: 8px" aria-label="Итоги за 2022 год">2022</a></li> -->
             </ul>
             <div class="ms-auto justify-content-center">
                 <button onClick="ThemeChangeButton()" type="button" aria-label="Переключить темную и светлую тему"
-                    class="btn btn-light header--adaptive-1 header--locale">
+                    class="btn btn-radius btn-light header--locale">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="header--theme-icon icon"
                         viewBox="0 0 16 16">
                         <use id="themechangebutton_icon" xlink:href="/img/icons/themes.svg#auto" />
                     </svg>
                 </button>
-                <button type="button" class="btn btn-light header--adaptive-1" aria-label="Открыть десктопное меню"
-                    data-bs-toggle="offcanvas" data-bs-target="#canvasprojects"
-                    aria-controls="canvasprojects">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="header--theme-icon icon"
-                        viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                    </svg>
-                </button>
-
-                <!-- MOBILE  -->
-                <button type="button" class="btn btn-light header--adaptive-2"
-                    data-bs-toggle="collapse" data-bs-target="#mobilemenu" aria-label="Открыть мобильное меню"
-                    aria-expanded="false" aria-controls="mobilemenu">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="header--theme-icon icon" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
-    <!-- TABLET -->
-    <div class="collapse  mt-2 p-0" id="mobilemenu">
-        <div class="list-group container list-group-flush">
-            <button class="list-group-item list-group-item-action"
-                onClick="ThemeChangeButton()" aria-label="Переключить светлую и темную тему">
-                Сменить тему
-            </button>
-            <div href="#" class="list-group-item list-group-item-action">
-                Текущий язык: RU
             </div>
         </div>
     </div>
@@ -225,43 +135,43 @@
             <div class="mb-2">
                 <a href="//it.dybka.ru" aria-label="Проекты dybka.ru"
                     class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    Все проекты
+                    Игры
                 </a>
             </div>
             <div class="mb-2">
                 <a href="//id.creagoo.ru" aria-label="Открыть личный кабинет аквариум"
                     class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    Личный кабинет
+                    Новости
                 </a>
             </div>
             <div class="mb-2">
                 <a href="//news.dybka.ru" aria-label="Читать новости спешиал"
                 class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    Читать новости
+                    Галерея
                 </a>
             </div>
             <div class="mb-2">
                 <a href="//dybka.ru" aria-label="Читать новости спешиал"
                     class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    dybka.ru
+                    Подробнее
                 </a>
             </div>
-            <div class="mb-2">
-                <a href="//vr.creagoo.ru" aria-label="Читать новости спешиал"
-                    class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    Умный город
-                </a>
-            </div>
-            <div class="mb-2">
-                <a href="//creagoo.ru" aria-label="Читать новости спешиал"
-                    class="nav-link header--text bg-light fs-5 header--locale header--locale-active py-3">
-                    Сайт Creagoo
-                </a>
-            </div>
-            <div class="mb-2">
+            <div class="mb-3">
                 <a href="//it.dybka.ru" aria-label="Читать новости спешиал"
                     class="nav-link fs-5 header--locale header--locale-active pt-1">
-                    Подробнее
+                    Перевод
+                </a>
+            </div>
+            <div class="mb-3">
+                <a href="//it.dybka.ru" aria-label="Читать новости спешиал"
+                    class="nav-link fs-5 header--locale header--locale-active pt-1">
+                    Пользователю
+                </a>
+            </div>
+            <div class="mb-3">
+                <a href="//it.dybka.ru" aria-label="Читать новости спешиал"
+                    class="nav-link fs-5 header--locale header--locale-active pt-1">
+                    Проект от dybka.ru
                 </a>
             </div>
         </div>

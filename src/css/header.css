@@ -24,7 +24,7 @@
     color: var(--invert) !important;
     text-align: none;
 
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .header--locale-disable-en,
@@ -32,7 +32,7 @@
     color: var(--text-color) !important;
     text-align: none;
 
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .header--locale-active
@@ -40,7 +40,7 @@
     color: var(--text-hover);
     text-decoration: none;
 
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .header--locale-active:hover {
@@ -52,7 +52,7 @@
     color: var(--text-hover);
     text-decoration: none;
 
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .header--locale-active-en:hover {

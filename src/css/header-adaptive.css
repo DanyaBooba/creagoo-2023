@@ -18,6 +18,16 @@
     .header--adaptive-special-4 {
         display: none !important;
     }
+
+    .header--adaptive-5{
+        display: none !important;
+    }
+}
+
+@media(max-width: 773px) {
+    .header--logo-pc{
+         display: none !important;
+    }
 }
 
 @media(max-width: 453px) {
@@ -26,11 +36,6 @@
     }
 }
 
-@media(max-width: 389px) {
-    .header--logo-pc {
-        display: none !important;
-    }
-}
 @media(min-width: 390px) {
     .header--logo-mobile {
         display: none !important;
