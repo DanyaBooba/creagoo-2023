@@ -1,0 +1,47 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo/icon.ico" type="image/x-icon">
+    <title>@@title — Creagoo</title>
+    <meta name="description" content="Мобильные и пк игры скачать бесплатно">
+    <meta name="keywords" content="creagoo,креагу,игры,babka on the hunt, бабка он зе хант, бабушка на охоте,
+    дыбка даниил, изобретариум">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Creagoo мобильный разработчик">
+    <meta property="og:site_name" content="Мобильные и пк игры скачать бесплатно">
+    <meta property="og:description" content="Мобильные и пк игры скачать бесплатно">
+    <meta property="og:url" content="https://creagoo.ru/">
+    <meta property="og:image" content="https://creagoo.ru/img/logo/icon.ico">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Creagoo мобильный разработчик">
+    <meta name="twitter:description" content="Мобильные и пк игры скачать бесплатно">
+    <meta name="twitter:site" content="https://creagoo.ru/">
+    <meta name="twitter:image" content="https://creagoo.ru/img/logo/icon.ico">
+
+    <meta name="Author" content="Дыбка Даниил">
+
+    <link rel="manifest" href="/manifest.json">
+
+    @@if(context.themeColor != "none") {
+        <meta name="theme-color" content="@@themeColor">
+    }
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <script>
+        if (matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+            document.documentElement.style.display = 'none';
+            document.head.insertAdjacentHTML(
+                'beforeend',
+                '<link rel="stylesheet" href="/css/light.css" onload="document.documentElement.style.display=\'\'">'
+            );
+        }
+    </script>
+
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" id="stylesheetlight" href="/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" id="stylesheetdark" href="/css/dark.css" media="(prefers-color-scheme: dark)">
+</head>

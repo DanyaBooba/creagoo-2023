@@ -1,0 +1,72 @@
+.header--main {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.header--main-dark {
+    padding-top: 14px;
+}
+
+.header--text {
+    font-size: 15px;
+}
+
+.header--locale
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header--locale-disable, .header--locale-disable:hover
+{
+    color: var(--invert) !important;
+    text-align: none;
+
+    border-radius: 8px;
+}
+
+.header--locale-disable-en,
+.header--locale-disable-en:hover {
+    color: var(--text-color) !important;
+    text-align: none;
+
+    border-radius: 8px;
+}
+
+.header--locale-active
+{
+    color: var(--text-hover);
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.header--locale-active:hover {
+    color: var(--text-hover-2);
+    text-decoration: none;
+}
+
+.header--locale-active-en {
+    color: var(--text-hover);
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.header--locale-active-en:hover {
+    color: var(--text-hover-4);
+    text-decoration: none;
+}
+
+.header--theme-icon
+{
+    margin: 0px 10px 0px 10px;
+}
+
+@media(max-width: 773px) {
+    .header--main-mobile{
+        margin-bottom: 60px;
+    }
+}

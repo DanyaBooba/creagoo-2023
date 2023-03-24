@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://creagoo.ru/sitemap.xml

@@ -1,0 +1,16 @@
+@media(max-width: 773px) {
+    .header--adaptive-3 {
+        display: none !important;
+    }
+}
+
+.list-group-item
+{
+    color: var(--text-color) !important;
+    background-color: var(--bg-color) !important;
+}
+
+.list-group-item-dark {
+    color: #fff !important;
+    background-color: #262323 !important;
+}

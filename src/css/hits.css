@@ -1,0 +1,9 @@
+.bg-hits
+{
+    background-color: var(--bg-light);
+    transition: .3s;
+}
+
+.bg-hits:hover,.bg-hits:focus {
+    background-color: var(--bg-light-hover);
+}

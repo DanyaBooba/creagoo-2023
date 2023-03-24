@@ -1,0 +1,31 @@
+.link--underline {
+    color: var(--text-hover-1);
+    text-decoration: none;
+
+    border-bottom: .1rem #a9a9a9 solid;
+
+    transition: .3s;
+}
+
+.link--underline:hover {
+    color: var(--text-hover-2);
+    text-decoration: none;
+
+    border-bottom: .125rem var(--text-hover-2) solid;
+
+    transition: .3s;
+}
+
+.link {
+    color: var(--text-hover);
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+.link:hover {
+    color: var(--text-hover-2);
+    text-decoration: none;
+
+    transition: .3s;
+}

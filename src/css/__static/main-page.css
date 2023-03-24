@@ -1,0 +1,27 @@
+.logo-game {
+    border-radius: 16px;
+}
+
+.logo-game--1 {
+    box-shadow: 25px 25px 20px -10px rgb(242, 154, 255);
+}
+
+.logo-game--2 {
+    box-shadow: 25px 25px 20px -10px rgb(83, 18, 50);
+}
+
+.logo-game--3 {
+    box-shadow: 25px 25px 20px -10px rgb(127, 228, 141);
+}
+
+.logo-game--4 {
+    box-shadow: 25px 25px 20px -10px rgb(55, 182, 254);
+}
+
+.game--text {
+    color: var(--text-hover-1);
+}
+
+.btn-close{
+    filter: var(--bs-btn-close-white-filter--me);
+}

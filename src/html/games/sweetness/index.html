@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('../../../parts/head.html', {
+"title": "Sweetness",
+"themeColor": "#262323"
+})
+<link rel="stylesheet" href="/css/game-page.css">
+
+<body>
+    @@include('../../../parts/header-game.html', {
+    "activeItem": "games"
+    })
+    <main>
+        <div class="container text-center" style="margin-bottom: 40px">
+            <h1>Sweetness</h1>
+            <div class="d-flex flex-wrap align-items-center justify-content-center" style="margin-top: 5px">
+                <a href="/games" class="link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 16 16" class="me-4">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </a>
+                <ul class="nav justify-content-center">
+                    <li><a onClick="showText()" href="#" class="nav-link nav--link-underline">Описание</a></li>
+                    <li><a onClick="showMedia()" href="#" class="nav-link nav--link-underline">Графика</a></li>
+                    <li><a href="#download" class="nav-link nav--link-underline">Скачать</a></li>
+                    <li><a href="#hits" class="nav-link nav--link-underline">Хиты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="" id="divMedia" style="margin-bottom: 100px">
+            <div class="container-fluid">
+                <img src="/@img/games/sweetness/cap.jpg" class="img-fluid w-100" alt="Игра Sweetness">
+            </div>
+            <div class="container" style="margin-bottom: 20px">
+                <p class="fs-2 mb-0 game--text">
+                    <span class="text-dark">Спокойствие</span> доступно сейчас.
+                </p>
+                <p class="fs-2 mb-0 game--text">
+                    <span class="text-dark">Идиллия</span> здесь.
+                </p>
+            </div>
+        </div>
+
+        <div class="d-none" id="divText" style="margin-bottom: 100px">
+            <div class="container fs-4">
+                <div style="max-width: 700px">
+                    <p>
+                        Вы играете за маленького исследователя, который путешествует
+                        по миру, созданным главным творцом. Не дайте заблудиться маленькому
+                        исследователю в этой огромной пустоши и продолжайте
+                        свое развлекательное путешествие.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div style="margin-bottom: 30px">
+                <h1 id="download">Скачать Sweetness</h1>
+                <ul class="download--list">
+                    <li class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=VqEGKs" class="download--list-item d-flex flex-wrap align-items-center fs-3" id="downloadandroid">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+                            </svg>
+                            Google Play
+                        </a>
+                    </li>
+                    <li class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=vukI06" class="download--list-item d-flex flex-wrap align-items-center fs-3" id="downloadwindows">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z" />
+                            </svg>
+                            Windows
+                        </a>
+                    </li>
+                    <li class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=BK2gci" class="download--list-item d-flex flex-wrap align-items-center fs-3" id="downloadmacos">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                            </svg>
+                            macOS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 id="hits" class="d-flex flex-wrap align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" class="me-3 icon"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                </svg>
+                Хиты сегодня
+            </h3>
+            <div class="row row-cols-1 row-cols-lg-3" style="margin-bottom: 50px">
+                <div class="col p-2">
+                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
+                        <div class="col-md-4">
+                            <a href="/games/babkaonthehuntclassic">
+                                <img src="/@img/games/bothnew/l.jpg" width="100" height="100" style="border-radius: 12px"
+                                    alt="Логотип игры Babka On The Hunt: 2D Классика">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="ps-3--local">
+                                <h4>Babka On The Hunt: 2D Классика</h4>
+                                <a href="/games/babkaonthehuntclassic" class="fs-5 link-bothnew link">
+                                    <span class="me-2">Перейти</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
+                        <div class="col-md-4">
+                            <a href="/games/rememberthesecards">
+                                <img src="/@img/games/cards/l.jpg" width="100" height="100" style="border-radius: 12px"
+                                    alt="Логотип игры Запомни эти карты">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="ps-3--local">
+                                <h4 class="cards-mb">Запомни эти карты</h4>
+                                <p class="fs-6 text-cards" style="color: var(--text-hover); margin-bottom: 12px">Доступно сейчас</p>
+                                <a href="/games/rememberthesecards" class="fs-5 link">
+                                    <span class="me-2">Перейти</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
+                        <div class="col-md-4">
+                            <a href="/games/rockpaperscissors">
+                                <img src="/@img/games/rps/l.jpg" width="100" height="100" style="border-radius: 12px"
+                                    alt="Логотип игры Камень ножницы бумага">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="ps-3--local">
+                                <h4>Камень ножницы бумага</h4>
+                                <a href="/games/rockpaperscissors" class="fs-5 link-rps link">
+                                    <span class="me-2">Перейти</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Другие ссылки по игре</h3>
+            <ul class="mb-0 fs-4">
+                <li>
+                    <a href="//s.creagoo.ru/?w=1hwszJ" class="link--underline">
+                        Играть онлайн
+                    </a>
+                </li>
+                <li>
+                    <a href="//s.creagoo.ru/?w=m5ZYH7" class="link--underline">
+                        Скачать для Android
+                    </a>
+                </li>
+                <li>
+                    <a href="//creagoo.itch.io/sweetness" class="link--underline">
+                        Страница на itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="//games.creagoo.ru/sweetness/privacypolicy/" class="link--underline">
+                        Политика конфиденциальности
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+    <script src="/js/game-page.js"></script>
+    <script src="/js/active-os.js"></script>
+
+    @@include('../../../parts/footer.html', {
+
+    })
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+body {
+    background-color: var(--bg-color);
+}
+
+.bg-white {
+    background-color: var(--bg-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+i {
+    color: var(--text-color);
+}
+
+.btn-light {
+    --bs-btn-color: var(--text-color);
+    --bs-btn-bg: var(--btn-light-color);
+    --bs-btn-border-color: var(--btn-light-color);
+    --bs-btn-hover-color: var(--active);
+    --bs-btn-hover-bg: var(--btn-light-hover);
+    --bs-btn-hover-border-color: var(--btn-light-hover);
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--btn-light-click);
+    --bs-btn-active-border-color: var(--btn-light-hover);
+}
+
+.btn-light .btn-icon {
+    fill: var(--invert);
+}
+
+.btn-dark {
+    --bs-btn-color: var(--dark-invert);
+    --bs-btn-bg: var(--dark-button-color);
+    --bs-btn-border-color: var(--dark-button-color);
+    --bs-btn-hover-color: var(--dark-invert);
+    --bs-btn-hover-bg: var(--dark-button-hover);
+    --bs-btn-hover-border-color: var(--dark-button-hover);
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--dark-button-click);
+    --bs-btn-active-border-color: var(--dark-button-hover);
+}
+
+.btn-dark .btn-icon {
+    fill: var(--dark-invert);
+}
+
+.icon {
+    fill: var(--text-color);
+}
+
+.text {
+    color: var(--text-color);
+}
+
+.bg-light
+{
+    background-color: var(--bg-light) !important;
+}
+
+.text-dark
+{
+    color: var(--text-color) !important;
+}
+
+ul {
+    color: var(--text-color);
+}
+
+.btn-dark-static {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #353535;
+    --bs-btn-border-color: #353535;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #565656;
+    --bs-btn-hover-border-color: #565656;
+    --bs-btn-active-bg: #7B7B7B;
+    --bs-btn-active-border-color: #565656;
+}
+
+.text-likehover {
+    color: var(--text-hover-1) !important;
+}

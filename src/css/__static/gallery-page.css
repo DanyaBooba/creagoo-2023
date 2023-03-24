@@ -1,0 +1,32 @@
+.picture-1 {
+    border-radius: 16px 0 0 0;
+}
+
+.picture-2 {
+    border-radius: 0 16px 0 0;
+}
+
+.picture-3 {
+    border-end-start-radius: 16px;
+}
+
+.picture-4 {
+    border-end-end-radius: 16px;
+}
+
+@media(max-width: 991px) {
+    .picture-1 {
+        border-top-left-radius: 16px !important;
+        border-top-right-radius: 16px !important;
+    }
+    .picture-2 {
+        border-radius: 0px !important;
+    }
+    .picture-3 {
+        border-radius: 0px !important;
+    }
+    .picture-4 {
+        border-end-start-radius: 16px !important;
+        border-end-end-radius: 16px !important;
+    }
+}

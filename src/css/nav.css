@@ -1,0 +1,74 @@
+.nav--main
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 60px;
+}
+
+@media(min-width: 994px) {
+    .nav-sticky {
+        top: 0;
+        position: sticky;
+        z-index: 1020;
+    }
+}
+
+.nav--link
+{
+    color: var(--text-hover);
+
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav--link:hover
+{
+    color: var(--text-hover-2);
+}
+
+.nav--link-en
+{
+    color: var(--text-hover);
+
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav--link-en:hover
+{
+    color: var(--text-hover-4);
+}
+
+.nav--link-active, .nav--link-active:hover
+{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav--link-active-en,
+.nav--link-active-en:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav--link-underline
+{
+    color: var(--text-hover-5) !important;
+    text-decoration: none;
+    border-bottom: .1rem var(--text-hover-4) solid;
+
+    transition: .3s;
+}
+
+.nav--link-underline:hover
+{
+    color: var(--text-hover-2) !important;
+    border-bottom: .1rem var(--text-hover-2) solid;
+}
+
+.nav--link-underline-active,
+.nav--link-underline-active:hover {
+    color: var(--text-hover-2) !important;
+    text-decoration: none;
+    border-bottom: .1rem var(--text-hover-2) solid;
+}

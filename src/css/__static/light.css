@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000;
+    --active: #fff;
+    --invert: #000;
+
+    --text-hover: #a9a9a9;
+    --text-hover-1: #555;
+    --text-hover-2: #333;
+    --text-hover-3: #111;
+    --text-hover-4: #ddd;
+    --text-hover-5: #777;
+
+    --btn-light-color: #f4f4f4;
+    --btn-light-hover: #d1d1d1;
+    --btn-light-click: #979797;
+
+    --btn-dark-color: #4a4a4a;
+    --btn-dark-hover: #7e7e7e;
+    --btn-dark-click: #212121;
+
+    --bs-border-color: #ddd;
+    --bg-light: #f8f9fa;
+    --bg-light-hover: #e7e9eb;
+
+    --bs-btn-close-color: #222;
+    --bs-btn-close-white-filter--me: invert(0) grayscale(100%) brightness(200%);
+}

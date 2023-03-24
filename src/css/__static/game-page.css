@@ -1,0 +1,64 @@
+.picture-top {
+    border-radius: 16px 16px 0 0;
+}
+
+.picture-bottom {
+    border-radius: 0 0 16px 16px;
+}
+
+.picture {
+    border-radius: 16px;
+}
+
+.game--text {
+    color: var(--text-hover-1);
+}
+
+.download--list
+{
+    margin: 0;
+    padding: 0;
+}
+
+.download--list-li
+{
+    border-left: .125rem #a9a9a9 solid;
+    list-style-type: none;
+    margin: 0;
+
+    padding: 10px 0 10px 0;
+
+    transition: .3s;
+}
+
+.download--list-item
+{
+    color: var(--text-hover-1);
+    text-decoration: none;
+
+    padding-left: 20px;
+    margin-top: 10px;
+
+    transition: .3s;
+}
+
+.download--list-item:hover
+{
+    color: var(--text-hover-2);
+    padding-left: 30px;
+}
+
+.download--list-li:hover
+{
+    border-left: .2rem var(--text-hover-2) solid;
+}
+
+.download--active
+{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+
+    background-color: rgba(1,1,1, .125);
+    border-top-right-radius: 8px;
+    border-end-end-radius: 8px;
+}
