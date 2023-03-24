@@ -44,14 +44,15 @@
 
 .download--list-item:hover
 {
+    border-left: .5rem var(--text-hover-2) solid;
     color: var(--text-hover-2);
     padding-left: 30px;
 }
 
-.download--list-li:hover
+/* .download--list-li:hover
 {
     border-left: .2rem var(--text-hover-2) solid;
-}
+} */
 
 .download--active
 {

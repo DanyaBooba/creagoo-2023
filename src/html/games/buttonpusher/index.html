@@ -99,54 +99,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col p-2">
-                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
-                        <div class="col-md-4">
-                            <a href="/games/rememberthesecards">
-                                <img src="/img/games/cards/l.jpg" width="100" height="100" style="border-radius: 12px"
-                                    alt="Логотип игры Запомни эти карты">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ps-3--local">
-                                <h4 class="cards-mb">Запомни эти карты</h4>
-                                <p class="fs-6 text-cards" style="color: var(--text-hover); margin-bottom: 12px">Доступно сейчас</p>
-                                <a href="/games/rememberthesecards" class="fs-5 link">
-                                    <span class="me-2">Перейти</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-2">
-                    <div class="d-flex game-block bg-hits p-2" style="border-radius: 16px">
-                        <div class="col-md-4">
-                            <a href="/games/sweetness">
-                                <img src="/img/games/sweetness/l.jpg" width="100" height="100" style="border-radius: 12px"
-                                    alt="Логотип игры Sweetness">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ps-3--local">
-                                <h4 class="mb-0">Sweetness</h4>
-                                <p class="fs-6" style="color: var(--text-hover); margin-bottom: 12px">Доступно сейчас</p>
-                                <a href="/games/sweetness" class="fs-5 link">
-                                    <span class="me-2">Перейти</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @@include('../../../parts/game--cards.html', {
+                })
+                @@include('../../../parts/game--sweetness.html', {
+                })
             </div>
 
             <h3>Другие ссылки по игре</h3>
