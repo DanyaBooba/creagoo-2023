@@ -31,3 +31,16 @@
 
     transition: .3s;
 }
+
+.link-icon
+{
+    color: var(--text-hover);
+    text-decoration: none !important;
+
+    transition: .3s;
+}
+
+.link-icon:hover {
+    color: var(--text-color);
+    text-decoration: none !important;
+}

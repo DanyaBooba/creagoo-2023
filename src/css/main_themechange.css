@@ -59,6 +59,10 @@ i {
     fill: var(--text-color);
 }
 
+icon-invert {
+    fill: var(--text-color-invert);
+}
+
 .text {
     color: var(--text-color);
 }
