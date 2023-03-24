@@ -76,11 +76,6 @@
                 class="list-group-item-dark list-group-item list-group-item-action">
                 Подробнее
             </a>
-            <!-- <a href="/2022.html" aria-label="Итоги 2022 года"
-                class="list-group-item-dark list-group-item list-group-item-action">
-                2022
-            </a> -->
-
             <button aria-label="Переключить светлую и темную тему"
             class="list-group-item-dark list-group-item list-group-item-action" onClick="ThemeChangeButton()">
                 Сменить тему
@@ -118,7 +113,14 @@
                 <li><a href="/games" class="nav-link nav--link-en" aria-label="Смотреть игры Creagoo">Игры</a></li>
                 }
                 <li><a href="//news.dybka.ru" aria-label="Читать новости Creagoo"
-                    class="nav-link nav--link-en">Новости</a></li>
+                    class="nav-link nav--link-en d-flex align-items-center">
+                    <span class="me-1">Новости</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right-circle"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                    </svg>
+                </a></li>
                 @@if(context.activeItem == "gallery") {
                 <li><a class="nav-link nav--link-active-en" aria-label="Галерея проектов Creagoo"
                     style="color: #fff !important">Галерея</a></li>
