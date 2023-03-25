@@ -21,8 +21,8 @@
                     </svg>
                 </a>
                 <ul class="nav justify-content-center">
-                    <li><a onClick="showText()" href="#" class="nav-link nav--link-underline">Описание</a></li>
-                    <li><a onClick="showMedia()" href="#" class="nav-link nav--link-underline">Графика</a></li>
+                    <li><a onClick="showText()" href="#divText" class="nav-link nav--link-underline">Описание</a></li>
+                    <li><a onClick="showMedia()" href="#divMedia" class="nav-link nav--link-underline">Графика</a></li>
                     <li><a href="#download" class="nav-link nav--link-underline">Скачать</a></li>
                     <li><a href="#hits" class="nav-link nav--link-underline">Популярное</a></li>
                 </ul>
@@ -31,13 +31,13 @@
 
         <div class="bg-light my-5 py-5">
             <div class="container">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-center g-5">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center g-3">
                     <div class="col-lg-6">
                         <h1 class="display-3 mb-5">
                             Мобильная игра<br> Babka On The Hunt
                         </h1>
                         <div class="d-flex align-items-center">
-                            <a href="/games/" class="fs-4 link" aria-label="Открыть список всех игр">
+                            <a href="#download" class="fs-4 link" aria-label="Открыть список всех игр">
                                 Скачать сейчас
                             </a>
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="icon ms-3" viewBox="0 0 16 16">
@@ -55,7 +55,7 @@
 
         <div class="bg-dark text-white my-5 py-5">
             <div class="container">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-center g-5">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center g-3">
                     <div class="col-lg-6">
                         <p class="display-4 text-white mb-5">
                             Получи<br> крутые стикеры!
@@ -98,7 +98,7 @@
                     Путешествуй по России.
                 </p>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <img src="/img/gallery/bothnew/screen1.jpg" class="img-fluid w-100 picture-top"
                     alt="Игра Babka On The Hunt: 2D Классика">
                 <img src="/img/gallery/bothnew/screen3.jpg" class="img-fluid w-100" alt="Игра Babka On The Hunt: 2D Классика">
@@ -146,8 +146,8 @@
             <div style="margin-bottom: 30px">
                 <h1 id="download">Скачать Babka On The Hunt: 2D Классика</h1>
                 <ul class="download--list">
-                    <li class="download--list-li">
-                        <a id="downloadandroid" href="//s.creagoo.ru/?w=4tan36" class="download--list-item d-flex flex-wrap align-items-center fs-3">
+                    <li id="downloadandroid" class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=4tan36" class="download--list-item d-flex flex-wrap align-items-center fs-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="me-2" viewBox="0 0 16 16">
                                 <path
                                     d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
@@ -155,16 +155,16 @@
                             Google Play
                         </a>
                     </li>
-                    <li class="download--list-li">
-                        <a id="downloadwindows" href="//s.creagoo.ru/?w=YWdM3Y" class="download--list-item d-flex flex-wrap align-items-center fs-3">
+                    <li id="downloadwindows" class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=YWdM3Y" class="download--list-item d-flex flex-wrap align-items-center fs-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="me-2" viewBox="0 0 16 16">
                                 <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z" />
                             </svg>
                             Windows
                         </a>
                     </li>
-                    <li class="download--list-li">
-                        <a id="downloadmacos" href="//s.creagoo.ru/?w=b7RYYk" class="download--list-item d-flex
+                    <li id="downloadmacos" class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=b7RYYk" class="download--list-item d-flex
                             flex-wrap align-items-center fs-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                                 class="me-2" viewBox="0 0 16 16">
@@ -176,8 +176,8 @@
                             macOS
                         </a>
                     </li>
-                    <li class="download--list-li">
-                        <a id="downloadlinux" href="//s.creagoo.ru/?w=UYG87tf7f" class="download--list-item d-flex flex-wrap align-items-center fs-3">
+                    <li id="downloadlinux" class="download--list-li">
+                        <a href="//s.creagoo.ru/?w=UYG87tf7f" class="download--list-item d-flex flex-wrap align-items-center fs-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="me-2" viewBox="0 0 16 16">
                                 <path
                                     d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546ZM7.4 13.108a5.535 5.535 0 0 1-3.775-2.88 3.273 3.273 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.253 3.253 0 0 1-.666-1.9 5.639 5.639 0 0 1-.557-.091Zm3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546Zm3.163-3.108a7.436 7.436 0 0 0 .373-8.726 3.276 3.276 0 0 1-1.278 1.498 5.573 5.573 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693ZM2.098 3.998a3.28 3.28 0 0 1 1.897.486 5.544 5.544 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.472 7.472 0 0 0-7.051 3.745Z" />

@@ -22,8 +22,8 @@
                     </svg>
                 </a>
                 <ul class="nav justify-content-center">
-                    <li><a onClick="showText()" href="#" class="nav-link nav--link-underline">Описание</a></li>
-                    <li><a onClick="showMedia()" href="#" class="nav-link nav--link-underline">Графика</a></li>
+                    <li><a onClick="showText()" href="#divText" class="nav-link nav--link-underline">Описание</a></li>
+                    <li><a onClick="showMedia()" href="#divMedia" class="nav-link nav--link-underline">Графика</a></li>
                     <li><a href="#download" class="nav-link nav--link-underline">Скачать</a></li>
                     <li><a href="#hits" class="nav-link nav--link-underline">Популярное</a></li>
                 </ul>
@@ -39,7 +39,7 @@
                     Разные стили игры.
                 </p>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <img src="/img/gallery/cards/screen2.jpg" class="img-fluid w-100 picture-top"
                     alt="Игра Запомни эти карты">
                 <img src="/img/gallery/cards/screen4.jpg" class="img-fluid w-100"
@@ -75,7 +75,7 @@
                 <h1 id="download">Скачать Запомни эти карты</h1>
                 <ul class="download--list">
                     <li class="download--list-li">
-                        <a href="//play.google.com/store/apps/details?id=com.Creagoo.RememberTheseCards" class="download--list-item d-flex flex-wrap align-items-center fs-3" id="downloadandroid">
+                        <a href="//play.google.com/store/apps/details?id=com.Creagoo.RememberTheseCards" class="download--list-item d-flex flex-wrap align-items-center fs-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                                 class="me-2" viewBox="0 0 16 16">
                                 <path
@@ -116,7 +116,6 @@
 
     </main>
     <script src="/js/game-page.js"></script>
-    <script src="/js/active-os.js"></script>
     @@include('../../../parts/footer.html', {
 
     })

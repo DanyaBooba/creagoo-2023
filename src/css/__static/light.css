@@ -26,4 +26,6 @@
 
     --bs-btn-close-color: #222;
     --bs-btn-close-white-filter--me: invert(0) grayscale(100%) brightness(200%);
+
+    --game-active: #33B2FF;
 }
