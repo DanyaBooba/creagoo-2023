@@ -10,7 +10,7 @@ function ThemeChangeButton() {
 	} else if (theme === "dark") {
 		GetLight();
 	} else {
-		GetAuto();
+		GetDark();
 	}
 }
 
