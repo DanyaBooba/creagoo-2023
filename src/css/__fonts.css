@@ -21,6 +21,13 @@
         url("/fonts/HalvarBreit/HalvarBreit.woff2") format("woff2");
 }
 
+@font-face {
+    font-family: PlayfairDisplay;
+    font-style: bold;
+    src: url("/fonts/PlayfairDisplay/PlayfairDisplay.woff") format("woff"),
+        url("/fonts/PlayfairDisplay/PlayfairDisplay.woff2") format("woff2");
+}
+
 /* Set */
 p,
 div,
@@ -78,4 +85,8 @@ h6 nobr,
 .h6 b,
 .h6 nobr {
     font-family: HalvarBreit;
+}
+
+.title-playfair {
+    font-family: PlayfairDisplay !important;
 }
