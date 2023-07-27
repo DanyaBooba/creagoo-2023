@@ -55,6 +55,12 @@ export const image = () => {
 	return gulp.src("src/img/**/*").pipe(gulp.dest("dist/img"));
 };
 
+// Fonts
+
+export const fonts = () => {
+	return gulp.src("fonts/**/*").pipe(gulp.dest("dist/fonts"));
+};
+
 // Server
 
 export const server = () => {
@@ -75,13 +81,13 @@ export const watch = () => {
 	gulp.watch("src/**/*.js", gulp.series(javascript));
 	gulp.watch(
 		["src/more/**/*", "src/fonts/**/*", "src/img/**/*"],
-		gulp.series(copy, image)
+		gulp.series(copy, image, fonts)
 	);
 };
 
 // Default
 
 export default gulp.series(
-	gulp.parallel(html, styles, javascript, copy, image),
+	gulp.parallel(html, styles, javascript, copy, image, fonts),
 	gulp.parallel(watch, server)
 );
