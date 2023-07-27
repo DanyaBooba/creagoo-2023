@@ -1,0 +1,5 @@
+.text-mute
+{
+    color: var(--text-mute);
+    fill: var(--text-mute)
+}

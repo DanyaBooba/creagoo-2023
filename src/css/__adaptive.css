@@ -1,10 +1,10 @@
-@media(min-width: 777px) {
+@media(min-width: 774px) {
     .see-at-mobile {
         display: none !important;
     }
 }
 
-@media(max-width: 776px) {
+@media(max-width: 773px) {
     .see-at-pc {
         display: none !important;
     }

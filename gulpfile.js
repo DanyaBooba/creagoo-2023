@@ -58,7 +58,7 @@ export const image = () => {
 // Fonts
 
 export const fonts = () => {
-	return gulp.src("fonts/**/*").pipe(gulp.dest("dist/fonts"));
+	return gulp.src("src/fonts/**/*").pipe(gulp.dest("dist/fonts"));
 };
 
 // Server

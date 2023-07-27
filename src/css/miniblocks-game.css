@@ -22,13 +22,6 @@
     }
 }
 
-
-@media(max-width: 991px) {
-    .game-block {
-        max-width: 350px;
-    }
-}
-
 @media(max-width: 1199px) and (min-width: 992px) {
     .link-bothnew {
         display: none !important;

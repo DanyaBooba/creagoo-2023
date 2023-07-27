@@ -1,0 +1,47 @@
+.game-block
+{
+    padding: 10px;
+    height: 130px !important;
+    margin-bottom: 20px;
+
+    text-decoration: none !important;
+    border: 0 !important;
+}
+
+.game-block-content {
+    transition: .3s;
+    padding: 10px;
+    background: var(--bg-light);
+    border-radius: 16px;
+}
+
+.game-block-content:hover {
+    background: var(--bg-color);
+    box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
+}
+
+.game-block--title
+{
+    font-size: 28px;
+    font-family: HalvarBreit;
+}
+
+.game-block--title-2 {
+    font-size: 24px;
+    font-family: HalvarBreit;
+}
+
+.game-block p {
+    margin: 0;
+    padding: 0;
+}
+
+.game-block img {
+    width: 110px;
+    height: 110px;
+
+    border-radius: 10px;
+    display: block;
+
+    margin-right: 20px;
+}
