@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 @@include('../../parts/head.html', {
-"title": "Информация о мобильном разработчике",
-"themeColor": "none"
+"title": "Информация о мобильном разработчике"
 })
 <link rel="stylesheet" href="css/main-page.css">
+
+<style>
+    p {
+        line-height: 150%;
+        margin-bottom: 30px;
+    }
+
+    h2,h3,h4 {
+        margin-bottom: 18px;
+    }
+</style>
 
 <body>
     @@include('../../parts/header.html', {
@@ -13,179 +23,103 @@
     <main class="container">
 
         <div class="mb-5 border-bottom pb-2">
-            <h1>Подробнее про Creagoo</h1>
+            <h1>Информация о Creagoo</h1>
         </div>
 
         <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="col-md-4">
-                <div class="bg-light p-4 mb-3" style="border-radius: 12px">
-                    <h4 class="mb-2">Связаться</h4>
-                    <p class="mb-1">
-                        Я Дыбка Даниил — главный разработчик Creagoo
-                    </p>
-                    <ul class="mb-0">
-                        <li>
-                            <a href="//t.me/ddybka" target="_blank" class="link">
-                                Телеграм
-                            </a>
-                        </li>
-                        <li>
-                            <a href="//vk.com/ddybka" target="_blank" class="link">
-                                Вконтакте
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:daniil@dybka.ru" class="link">
-                                daniil@dybka.ru
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="bg-light p-4 mb-3" style="border-radius: 12px">
-                    <h4 class="mb-2">Главы</h4>
-                    <ul class="mb-0">
-                        <li>
-                            <a href="#p1" class="link">
-                                Мобильные проекты
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#p2" class="link">
-                                Планы Creagoo
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#p3" class="link">
-                                История Creagoo
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#p4" class="link">
-                                Что означает «Creagoo»
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#a1" class="link">
-                                Коммерция, реклама
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#a2" class="link">
-                                Использование материалов сайта
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="bg-light p-4 m-0 mb-3" style="border-radius: 12px">
-                    <h4 class="m-0 mb-2">Скачать логотип Creagoo</h4>
-                    <a href="#" class="link">
-                        Zip-архив
-                    </a>
-                </div>
-            </div>
             <div class="col-md-7 me-auto">
-                <div class="fs-4" style="margin-bottom: 50px">
+                <div class="fs-4" style="margin-bottom: 100px">
                     <p>
-                        Creagoo — мобильный разработчик, автор проектов
+                        Creagoo — мобильный разработчик казуальных проектов. Автор игр
                         Babka On The Hunt, Sweetness, Запомни эти карты,
-                        Крестики нолики и прочие.
-                    </p>
-                    <p>
-                        Главный разработчик Creagoo — Дыбка Даниил, автор
-                        Creagoo.
+                        Крестики нолики. Главный разработчик: Даниил Дыбка.
                     </p>
                 </div>
-                <h2 id="p1">Мобильные проекты</h2>
-                <div class="fs-4" style="margin-bottom: 50px">
+                <h2 id="p1">Как все начиналось</h2>
+                <div class="fs-4" style="margin-bottom: 100px">
                     <p>
-                        Идея создания команды Creagoo пришла ко мне
-                        из-за интереса в сторону разработки мобильных
-                        проектов.
+                        Идея разработки простых мобильных игр пришла в 2019 году.
+                        В то время началось изучения игрового движка Unity.
                     </p>
                     <p>
-                        Для разработки мобильных проектов мне пришлось
-                        изучать технологию движка Unity. В свою очередь,
-                        мобильная разработка очень хорошо определила мое
-                        будущее.
+                        Первое упоминание о проектах было на моем сайте
+                        both.pro.izobretarium.ru.
                     </p>
                     <p>
-                        Мои знания в игровом движке Unity сильно пригодились
-                        даже после плановой заморозки в разработке
-                        игровых проектов.
+                        Уже через 4 года Creagoo вышел на рынок многих маркетов игр,
+                        выпустил более 5-ти успешных проектов. И на текущий
+                        счет имеет аудиторию в несколько тысяч пользователей.
                     </p>
                 </div>
-                <h2 id="p2">Планы Creagoo</h2>
-                <div class="fs-4" style="margin-bottom: 50px">
+                <h2 id="p2">Первый проект</h2>
+                <div class="fs-4" style="margin-bottom: 100px">
                     <p>
-                        В 2023 нет планов по разработке новых проектов.
+                        Идея первого проекта пришла спонтанно, благодаря чему идея
+                        получилась очень интересной, гиперболизированной и странной.
+                        Это была игра — Babka On The Hunt. Сюжет про русскую бабушку
+                        путешественницу.
                     </p>
                     <p>
-                        Стоит ожидать официальных объявлений Creagoo
-                        о разработке новых проектов.
-                    </p>
-                </div>
-                <h2 id="p3">История Creagoo</h2>
-                <div class="fs-4" style="margin-bottom: 50px">
-                    <p>
-                        Свое имя Creagoo я придумал в 2019 году,
-                        когда стал разрабатывать свой первый проект.
-                    </p>
-                    <p>
-                        Уже после выпущенных проектов мне определенно
-                        нужно было связать их с каким-то именем, поэтому
-                        было решено оставить имя Creagoo.
+                        Еще примерно год-полтора я продолжал вести разработку игры Babka On The Hunt,
+                        выпускал обновления, создавал новые игры по бабушке.
                     </p>
                 </div>
-                <h2 id="p4">Что означает «Creagoo»</h2>
-                <div class="fs-4 border-bottom" style="margin-bottom: 50px; padding-bottom: 50px">
+                <h2 id="p3">Следующие игры</h2>
+                <div class="fs-4" style="margin-bottom: 100px">
+                    <p>
+                        После этого в течение двух лет началась разработка различных казуальных проектов:
+                        Крестики нолики, Запомни эти карты, Камень ножницы бумага.
+                    </p>
+                    <p>
+                        Суть этих проектов в следующем — есть интересная механика, которая тестируется и проверяется.
+                        Если эта механика является интересной, то в дальнейшем игра продолжает разрабатываться, и
+                        после выходит на различных маркетах.
+                    </p>
+                    <p>
+                        В этом и есть суть простых казуальных проектов, на которых ориентирован Creagoo.
+                    </p>
+                </div>
+                <h2 id="p4">Значение названия Creagoo</h2>
+                <div class="fs-4 border-bottom" style="margin-bottom: 100px; padding-bottom: 50px">
                     <p>
                         Creagoo — это сокращение от
                         фразы «Create a good», означает
                         «делать хорошо».
                     </p>
                     <p>
-                        Слоган оставался с Creagoo некоторое время,
-                        после стал историей создания Creagoo.
+                        Данный слоган был придуман вместе с <a href="/logos/" class="link">первым</a> логотипом Creagoo.
                     </p>
                 </div>
                 <h3 id="a1">Реклама на сайте и в продуктах</h3>
-                <div class="fs-4" style="margin-bottom: 50px">
+                <div class="fs-4" style="margin-bottom: 100px">
                     <p>
-                        У Creagoo есть возможность разместить рекламу на сайте
-                        или в мобильных проектах. Для этого требуется соблюсти
-                        правила Creagoo, а после написать предложение на почту:
-                        <a href="mailto:daniil@dybka.ru" class="link">daniil@dybka.ru</a>
+                        Для согласования рекламы свяжитесь с автором: <a href="mailto:daniil@dybka.ru" class="link">daniil@dybka.ru</a>
                     </p>
                     <p>
-                        Про <b>правила</b>:
+                        Правила:
                     </p>
                     <ul>
                         <li>
-                            Запрещается под видом собственного мнения продавать рекламу
+                            рекламный слоган не оформляется как личное мнение;
                         </li>
                         <li>
-                            Реклама не будет реализована товарам, запрещенным на территории РФ
+                            запрет рекламы продукции 18+;
                         </li>
                         <li>
-                            Реклама может быть не реализована по мнению автора
-                        </li>
-                        <li>
-                            Запрещена реклама алкогольной, табачной и наркотической
-                            продукции
+                            запрет рекламы контор, казино и прочего.
                         </li>
                     </ul>
                 </div>
-                <h3 id="a2">Использование материалов сайта</h3>
-                <div class="fs-4" style="margin-bottom: 50px">
+                <h3 id="a2">Использование материалов Creagoo</h3>
+                <div class="fs-4" style="margin-bottom: 100px">
                     <p>
-                        Разрешается пользоваться материалами
-                        Creagoo в личных и (или) некоммерческих
-                        условиях.
+                        Разрешено использование материалов, выпускаемых Creagoo, в
+                        качестве личного некоммерческого использования.
                     </p>
                     <p>
-                        В остальных случаях свяжитесь с автором:
-                        <a href="mailto:daniil@dybka.ru" class="link">daniil@dybka.ru</a>, чтобы получить разрешение
-                        и правило оформления.
+                        В отличных случаях рекомендуется связаться с автором:
+                        <a href="mailto:daniil@dybka.ru" class="link">daniil@dybka.ru</a>
+                        и получить личное разрешение.
                     </p>
                 </div>
             </div>

@@ -31,6 +31,11 @@
     font-family: HalvarBreit;
 }
 
+.game-block--title-3 {
+    font-size: 35px;
+    font-family: HalvarBreit;
+}
+
 .game-block p {
     margin: 0;
     padding: 0;

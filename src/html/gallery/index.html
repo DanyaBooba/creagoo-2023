@@ -4,7 +4,8 @@
 "title": "Галерея мобильных проектов",
 "themeColor": "none"
 })
-<link rel="stylesheet" href="css/gallery-page.css">
+
+<link rel="stylesheet" href="/css/gallery-page.css">
 
 <body>
     @@include('../../parts/header.html', {
@@ -14,24 +15,57 @@
 
         <div class="container" style="margin-bottom: 50px">
             <div class="row row-cols-1 mb-2 row-cols-lg-3">
+                @@include('../../parts/game--russiancards2.html', {
+                })
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col px-0">
+                    <a href="/games/russiancards2/" aria-label="Открыть игру Русские Карты 2">
+                        <img src="/img/gallery/russiancards2/screen1.jpg" class="img-fluid picture-1 p-1"
+                            alt="Скриншот игры Русские Карты 2">
+                    </a>
+                </div>
+                <div class="col px-0">
+                    <a href="/games/russiancards2/" aria-label="Открыть игру Русские Карты 2">
+                        <img src="/img/gallery/russiancards2/screen2.jpg" class="img-fluid picture-2 p-1"
+                            alt="Скриншот игры Русские Карты 2">
+                    </a>
+                </div>
+                <div class="col px-0">
+                    <a href="/games/russiancards2/" aria-label="Открыть игру Русские Карты 2">
+                        <img src="/img/gallery/russiancards2/screen3.jpg" class="img-fluid picture-3 p-1"
+                            alt="Скриншот игры Русские Карты 2">
+                    </a>
+                </div>
+                <div class="col px-0">
+                    <a href="/games/russiancards2/" aria-label="Открыть игру Русские Карты 2">
+                        <img src="/img/gallery/russiancards2/screen4.jpg" class="img-fluid picture-4 p-1"
+                            alt="Скриншот игры Русские Карты 2">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 50px">
+            <div class="row row-cols-1 mb-2 row-cols-lg-3">
                 @@include('../../parts/game--babkanew.html', {
                 })
             </div>
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col px-0">
-                    <img src="/img/gallery/bothnew/screen1.jpg" class="img-fluid picture-1"
+                    <img src="/img/gallery/bothnew/screen1.jpg" class="img-fluid p-1 picture-1"
                         alt="Скриншот игры Babka On The Hunt: 2D Классика">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/bothnew/screen2.jpg" class="img-fluid picture-2"
+                    <img src="/img/gallery/bothnew/screen2.jpg" class="img-fluid p-1 picture-2"
                         alt="Скриншот игры Babka On The Hunt: 2D Классика">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/bothnew/screen4.jpg" class="img-fluid picture-3"
+                    <img src="/img/gallery/bothnew/screen4.jpg" class="img-fluid p-1 picture-3"
                         alt="Скриншот игры Babka On The Hunt: 2D Классика">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/bothnew/screen5.jpg" class="img-fluid picture-4"
+                    <img src="/img/gallery/bothnew/screen5.jpg" class="img-fluid p-1 picture-4"
                         alt="Скриншот игры Babka On The Hunt: 2D Классика">
                 </div>
             </div>
@@ -44,19 +78,19 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col px-0">
-                    <img src="/img/gallery/cards/screen1.jpg" class="img-fluid picture-1"
+                    <img src="/img/gallery/cards/screen1.jpg" class="img-fluid p-1 picture-1"
                         alt="Скриншот игры Запомни эти карты">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/cards/screen2.jpg" class="img-fluid picture-2"
+                    <img src="/img/gallery/cards/screen2.jpg" class="img-fluid p-1 picture-2"
                         alt="Скриншот игры Запомни эти карты">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/cards/screen4.jpg" class="img-fluid picture-3"
+                    <img src="/img/gallery/cards/screen4.jpg" class="img-fluid p-1 picture-3"
                         alt="Скриншот игры Запомни эти карты">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/cards/screen5.jpg" class="img-fluid picture-4"
+                    <img src="/img/gallery/cards/screen5.jpg" class="img-fluid p-1 picture-4"
                         alt="Скриншот игры Запомни эти карты">
                 </div>
             </div>
@@ -69,19 +103,19 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col px-0">
-                    <img src="/img/gallery/both/basic1.jpg" class="img-fluid picture-1"
+                    <img src="/img/gallery/both/basic1.jpg" class="img-fluid p-1 picture-1"
                         alt="Скриншот игры Babka On The Hunt">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/both/basic2.jpg" class="img-fluid picture-2"
+                    <img src="/img/gallery/both/basic2.jpg" class="img-fluid p-1 picture-2"
                         alt="Скриншот игры Babka On The Hunt">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/both/covid1.jpg" class="img-fluid picture-3"
+                    <img src="/img/gallery/both/covid1.jpg" class="img-fluid p-1 picture-3"
                         alt="Скриншот игры Babka On The Hunt">
                 </div>
                 <div class="col px-0">
-                    <img src="/img/gallery/both/space1.jpg" class="img-fluid picture-4"
+                    <img src="/img/gallery/both/space1.jpg" class="img-fluid p-1 picture-4"
                         alt="Скриншот игры Babka On The Hunt">
                 </div>
             </div>
