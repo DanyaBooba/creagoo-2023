@@ -1,9 +1,9 @@
 .picture-top {
-    border-radius: 12px 12px 0 0;
+    border-radius: 32px 32px 0 0;
 }
 
 .picture-bottom {
-    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 32px 32px;
 }
 
 .picture {
