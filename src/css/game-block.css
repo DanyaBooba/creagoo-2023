@@ -16,7 +16,7 @@
 }
 
 .game-block-content:hover {
-    background: var(--bg-color);
+    background: var(--game-block-hover);
     box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
 }
 
