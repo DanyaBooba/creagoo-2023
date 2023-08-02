@@ -1,0 +1,12 @@
+.download-more{
+    font-size: 13px;
+    padding: 2px;
+    margin-top: 5px;
+
+    border: 1px solid var(--text-hover-4);
+    color: var(--text-hover-2);
+
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+}
