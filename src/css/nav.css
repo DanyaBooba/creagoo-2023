@@ -21,6 +21,10 @@
     transition: .3s;
 }
 
+.nav--link.nav-link-social-network {
+    color: var(--social-network-background);
+}
+
 .nav--link:hover,
 .nav--link:focus
 {

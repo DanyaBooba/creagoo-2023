@@ -1,0 +1,24 @@
+.social-network {
+    background-color: var(--social-network-background);
+    border-radius: 8px;
+
+    margin-bottom: 1rem;
+}
+
+.social-network a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding: 20px;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.social-network a svg {
+    width: 24px;
+    height: 24px;
+    margin-left: .25rem;
+}
