@@ -22,7 +22,7 @@
 }
 
 .nav--link.nav-link-social-network {
-    color: var(--social-network-background);
+    color: var(--social-network-text);
 }
 
 .nav--link:hover,
